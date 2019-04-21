@@ -1,4 +1,12 @@
 #El problema es... tengo una base de datos de vinos, y hay que hacer una red que clasifique.
+#Para ello considero hacer una red con 14 entradas, 6 neuronas en la capa escondida y tres salidas, pues hay tres tipos de 
+#vino a clasificar.
+#Entonces cada neurona va a tener la forma x1w1+..+x12w13, wi pesos, xi atributos. Esto nos da un número, después ese número
+#lo pasamos por la función de activación. 
+#Hay que hacer eso con los 162 renglones. 
+#Luego hay que medir la distancia de la clasificación que da la red con la clasificación que tienen los datos.
+#Se seleccionan los de mejor rendimiento y esos pasan al genético....
+
 #Creamos cromosomas en binario y encontrar una manera de convertirlos en flotantese.
 #Un cormosoma es algo de la forma x1w1+...+x14w14 con wi los pesos y xi cada uno de los atributos.
 #Crar valores de inicio en un rango muy pequeños.
